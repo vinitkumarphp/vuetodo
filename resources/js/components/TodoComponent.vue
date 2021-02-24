@@ -3,7 +3,7 @@
 
 <form @submit.prevent="saveData" >
     <div class="input-group  w-100">
-  <input type="text" v-model="form.title" class="form-control form-control-lg" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+  <input type="text" v-model="form.title" class="form-control form-control-lg" placeholder="Add a Task" aria-label="Recipient's username" aria-describedby="button-addon2">
   <button class="btn btn-success" type="submit" id="button-addon2">Add</button>
 </div>
 </form>
